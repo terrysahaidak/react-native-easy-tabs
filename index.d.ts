@@ -3,15 +3,15 @@ declare module "react-native-easy-tabs" {
   import { ViewProperties } from 'react-native';
 
   interface TabProps {
-    lazy: boolean = false;
+    lazy: boolean;
   }
 
   export class Tab extends React.PureComponent<TabProps, any> {}
 
   interface TabViewProps extends ViewProperties {
-    animationDuration: number = 250;
+    animationDuration: number;
     layoutWidth: number;
-    animated: boolean = true;
+    animated: boolean;
     selectedTabIndex: number;
     children: React.ElementType | React.ElementType[];
   }
