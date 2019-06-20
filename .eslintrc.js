@@ -6,13 +6,6 @@ module.exports = {
   env: {
     jest: true,
   },
-  settings: {
-    'import/resolver': {
-      node: {
-        extensions: ['js', '.android.js', '.ios.js'],
-      },
-    },
-  },
   rules: {
     'max-len': [2, 100, 2],
     'import/no-extraneous-dependencies': [
