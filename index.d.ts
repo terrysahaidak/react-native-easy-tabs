@@ -4,7 +4,6 @@ declare module "react-native-easy-tabs" {
 
   interface TabProps {
     lazy: boolean;
-    useAbsolute: boolean;
   }
 
   export class Tab extends React.PureComponent<TabProps, any> {}
@@ -14,7 +13,7 @@ declare module "react-native-easy-tabs" {
     layoutWidth: number;
     animated: boolean;
     selectedTabIndex: number;
-    useAbsolute: boolean;
+    useAbsoluteViews: boolean;
     children: React.ElementType | React.ElementType[];
   }
 
