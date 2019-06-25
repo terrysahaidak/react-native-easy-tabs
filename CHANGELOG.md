@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Ability to make views with absolute position. Will help switching between tabs with different height.
+- Ability to use absolute position for views. Will help switching between tabs with different height.
 
 ## [1.1.0] 25-06-2019
 
