@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terrysahaidak/react-native-easy-tabs"
+  },
   "keywords": [
     "react-native",
     "tab",
@@ -13,7 +17,7 @@
     "reactnative",
     "react"
   ],
-  "author": "Terry Sahaidak",
+  "author": "Terry Sahaidak <terry@sahaidak.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^8.0.1",

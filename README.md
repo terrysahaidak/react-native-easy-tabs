@@ -21,6 +21,10 @@ npm i --save react-native-easy-tabs
 yarn add react-native-easy-tabs
 ```
 
+## Changelog
+
+Here is our [changelog](CHANGELOG). We are using [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and [Semantic Versioning](https://semver.org/spec/v2.0.0.html) during development.
+
 ## Usage
 `react-native-easy-tabs` exposes two components – `TabView` and `Tab`.
 `TabView` is a container for your tabs. It manages tab position
