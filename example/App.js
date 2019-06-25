@@ -78,23 +78,15 @@ export default class App extends React.Component {
           layoutWidth={this.state.width}
           selectedTabIndex={this.state.currentTab}
         >
-          <Tab>
-            <View style={styles.container}>
-              <Text style={styles.paragraph}>This is tab 1</Text>
-            </View>
+          <Tab style={styles.container}>
+            <Text style={styles.paragraph}>This is tab 1</Text>
           </Tab>
 
-          <Tab lazy>
-            <View style={styles.container}>
-              <Text style={styles.paragraph}>
-                Second tab here, yo
-              </Text>
-            </View>
+          <Tab style={styles.container} lazy>
+            <Text style={styles.paragraph}>Second tab here, yo</Text>
           </Tab>
-          <Tab lazy>
-            <View style={styles.container}>
-              <Text style={styles.paragraph}>THIRD TAB YAAAY</Text>
-            </View>
+          <Tab style={styles.container} lazy>
+            <Text style={styles.paragraph}>THIRD TAB YAAAY</Text>
           </Tab>
         </TabView>
       </View>

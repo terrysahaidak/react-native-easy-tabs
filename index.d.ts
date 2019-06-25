@@ -13,6 +13,7 @@ declare module "react-native-easy-tabs" {
     layoutWidth: number;
     animated: boolean;
     selectedTabIndex: number;
+    useAbsoluteViews: boolean;
     children: React.ElementType | React.ElementType[];
   }
 
