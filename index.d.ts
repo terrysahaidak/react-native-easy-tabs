@@ -4,7 +4,7 @@ declare module "react-native-easy-tabs" {
 
   interface TabProps {
     lazy: boolean;
-    style?: ViewStyle
+    style?: ViewStyle;
   }
 
   export class Tab extends React.PureComponent<TabProps, any> {}
